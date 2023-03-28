@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body {
+  background-color: rgb(253, 251, 251);
+  color: rgb(25, 25, 25);
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
+}
+
+#cabecalho {
+  top: 0;
+  position: fixed;
+  background-color: chocolate;
+  color: aliceblue;
+  width: 100%;
+  font-family: Satisfy, cursive;
+  font-size: 23px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+ol li:hover {
+  color: chocolate;
+}
+
+ul li:hover , #licoes-aprendidas {
+  color: violet;
+}
+
+#listas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#descricao {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 100px;
+  justify-content: start;
+}
+
+article {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  font-size: larger;
+  font-weight: 700;
+}
+
+a {
+  color: rgb(25, 25, 25);
+}
+
+
+a:hover , #licoes-a-aprender {
+  color: chocolate;
+}
+
+aside {
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-left: 10px;
+}
+
+footer {
+  text-align: center;
+}
+
+table , th , td {
+  border: 1px  rgb(25, 25, 25) solid;
+}
+
+#menu {
+  width: 10%;
+  text-align: center;
+}
+
+#titulo {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu:hover {
+  color: aliceblue;
+}
+
